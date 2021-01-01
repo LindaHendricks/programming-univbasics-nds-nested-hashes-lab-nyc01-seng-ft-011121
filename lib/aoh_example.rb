@@ -9,7 +9,7 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 def assembled_aoh
   nested_aoh = [ ]
   if DON_G.include? "Don Gately" do 
-    nested_aoh.concate (DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G)
+    nested_aoh.concate(DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G)
     return nested_aoh
   end
   nested_aoh
